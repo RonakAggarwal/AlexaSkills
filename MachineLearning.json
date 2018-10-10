@@ -1,0 +1,38 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "machine learning facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "factIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me a fact",
+                        "tell me a machine learning fact",
+                        "tell me",
+                        "tell me fact",
+                        "please",
+                        "yes",
+                        "fact",
+                        "machine fact",
+                        "the fact you know",
+                        "new machine learning fact"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
